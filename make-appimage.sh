@@ -16,9 +16,9 @@ export DEPLOY_PYTHON=1
 quick-sharun \
     /usr/bin/cine \
     /usr/share/cine \
-    /usr/lib/libgtk-4.so \
-    /usr/lib/libadwaita-1.so \
-    /usr/lib/libmpv.so.2
+    /usr/lib/libgtk-4.so* \
+    /usr/lib/libadwaita-1.so* \
+    /usr/lib/libmpv.so*
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
